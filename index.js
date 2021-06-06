@@ -9,7 +9,7 @@ document.querySelectorAll(".drum")[i].addEventListener("click", function(){
 });
 }
 
-document.addEventListener("keydown",function(event){
+document.addEventListener("keypress",function(event){
     
     makeSound(event.key);
     btnAni(event.key);
